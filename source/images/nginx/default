@@ -1,0 +1,21 @@
+server {
+    listen 80 default_server;
+    root /sites;
+    index index.html index.htm;
+    server_name localhost;
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
+
+server {
+    listen 443 ssl;
+    ssl_certificate /usr/nginx/ssl.crt;
+    ssl_certificate_key /usr/nginx/ssl.key;
+    #ssl_password_file /usr/nginx/ssl.pass;
+    server_name localhost;
+    root /sites;
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
