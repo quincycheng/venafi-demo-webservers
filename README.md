@@ -21,3 +21,4 @@
 | Path to JKS      | n/a                                | n/a                               | /usr/local/tomcat/conf/localhost-rsa.jks |
 | Keytool Path | | | /opt/java/openjdk/bin |
 | JDK Version | | | openjdk 21.0.5 2024-10-15 LTS |
+| Inject commands (standard workflow) for stage 1100 | /usr/local/apache2/bin/apachectl -k graceful | nginx -s reload | curl -u robot:robot http://localhost:8080/manager/text/sslReload |
