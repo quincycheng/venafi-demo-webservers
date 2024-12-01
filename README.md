@@ -15,6 +15,7 @@
 | **SSH Port**  | 10022    | 11022   | 12022          |
 | **SSH User**     | demouser                           | demouser                          | demouser                                 |
 | **SSH Password** | Cyberark1                          | Cyberark1                         | Cyberark1                                |
+| **Root Password**| root |root |root |
 | **Image**        | quincycheng/venafi-demo-apache:0.1 | quincycheng/venafi-demo-nginx:0.1 | quincycheng/venafi-demo-tomcat:0.1       |
 | Path to Cert     | /usr/local/apache2/conf/server.crt | /usr/nginx/ssl.crt                | n/a                                      |
 | Path to Key      | /usr/local/apache2/conf/server.key | /usr/nginx/ssl.key                | n/a                                      |
