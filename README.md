@@ -1,9 +1,9 @@
 # venafi-demo-webservers
 
 ## How to use
-1. Download docker-compose.yml
-2. docker-compose pull
-3. docker-compose up -d
+1. Download `docker-compose.yml`
+2. Execute: `docker-compose pull`
+3. Execute: `docker-compose up -d`
 
 ## Details
 
@@ -19,6 +19,6 @@
 | Path to Cert     | /usr/local/apache2/conf/server.crt | /usr/nginx/ssl.crt                | n/a                                      |
 | Path to Key      | /usr/local/apache2/conf/server.key | /usr/nginx/ssl.key                | n/a                                      |
 | Path to JKS      | n/a                                | n/a                               | /usr/local/tomcat/conf/localhost-rsa.jks |
-| Keytool Path | | | /opt/java/openjdk/bin |
-| JDK Version | | | openjdk 21.0.5 2024-10-15 LTS |
+| Keytool Path | n/a | n/a | /opt/java/openjdk/bin |
+| JDK Version | n/a | n/a | openjdk 21.0.5 2024-10-15 LTS |
 | Inject commands (standard workflow) for stage 1100 | /usr/local/apache2/bin/apachectl -k graceful | nginx -s reload | curl -u robot:robot http://localhost:8080/manager/text/sslReload |
