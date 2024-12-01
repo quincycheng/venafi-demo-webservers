@@ -6,6 +6,7 @@
 3. Execute: `docker-compose up -d`
 
 ## Details
+The following table use `localhost` as an example.   Please update them to suit your demo environment accordingly.
 
 |                  | **Apache**                         | **nginx**                         | **Tomcat**                               |
 |------------------|------------------------------------|-----------------------------------|------------------------------------------|
