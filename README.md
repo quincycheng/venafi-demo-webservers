@@ -19,3 +19,7 @@
 | Path to Cert     | /usr/local/apache2/conf/server.crt | /usr/nginx/ssl.crt                | n/a                                      |
 | Path to Key      | /usr/local/apache2/conf/server.key | /usr/nginx/ssl.key                | n/a                                      |
 | Path to JKS      | n/a                                | n/a                               | /usr/local/tomcat/conf/localhost-rsa.jks |
+
+
+| Keytool Path | | | /opt/java/openjdk/bin |
+| JDK Version | | | openjdk 21.0.5 2024-10-15 LTS |
