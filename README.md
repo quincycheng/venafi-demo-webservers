@@ -11,6 +11,8 @@
 |------------------|------------------------------------|-----------------------------------|------------------------------------------|
 | **HTTPS URL**    | https://localhost:10443            | https://localhost:11443           | https://localhost:12443                  |
 | **SSH Command**  | ssh demouser@localhost -p 10022    | ssh demouser@localhost -p 11022   | ssh demouser@localhost -p 12022          |
+| **HTTPS Port**    | 10443            | 11443           | 12443                  |
+| **SSH Port**  | 10022    | 11022   | 12022          |
 | **SSH User**     | demouser                           | demouser                          | demouser                                 |
 | **SSH Password** | Cyberark1                          | Cyberark1                         | Cyberark1                                |
 | **Image**        | quincycheng/venafi-demo-apache:0.1 | quincycheng/venafi-demo-nginx:0.1 | quincycheng/venafi-demo-tomcat:0.1       |
