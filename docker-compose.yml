@@ -3,17 +3,17 @@ services:
     image: quincycheng/venafi-demo-apache:0.1 
     restart: always
     ports:
-      - 10443:443
-      - 10022:2222
+      - "10443:443"
+      - "10022:2222"
   nginx:
     image: quincycheng/venafi-demo-nginx:0.1
     restart: always
     ports:
-      - 11443:443
-      - 11022:22
+      - "11443:443"
+      - "11022:22"
   tomcat:
     image: quincycheng/venafi-demo-tomcat:0.1
     restart: always
     ports:
-      - 12443:8443
-      - 12022:22
+      - "12443:8443"
+      - "12022:22"
