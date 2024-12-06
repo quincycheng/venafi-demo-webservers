@@ -1,9 +1,15 @@
 # venafi-demo-webservers
 
-## How to use
-1. Download `docker-compose.yml`
-2. Execute: `docker-compose pull`
-3. Execute: `docker-compose up -d`
+## How to deploy
+1. Install Docker and docker-compose.   Be sure to execute tsteps at https://docs.docker.com/engine/install/linux-postinstall/
+2. Download `docker-compose.yml`
+3. Execute: `docker-compose pull`
+4. Execute: `docker-compose up -d`
+
+## Points to note at Venafi
+1. Create "onboard discovery"
+2. Change "monoitoring" to "provisioning"
+3. Update "port" for "validation" 
 
 ## Details
 The following table use `localhost` as an example.   Please update them to suit your demo environment accordingly.
